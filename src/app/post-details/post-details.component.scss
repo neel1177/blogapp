@@ -1,0 +1,36 @@
+.userName {
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 10px;
+    color: white;
+    i {
+      vertical-align: middle;
+      margin-right: 7px;
+      font-size: 34px;
+      color: white;
+    }
+  }
+
+  .power{
+    i{
+        vertical-align: middle;
+        color:red;
+    }
+  }
+
+  .logout-wrapper {
+    margin-left: auto;
+  }
+
+  .login{
+    // vertical-align: middle;
+     position: relative;
+     top: 4px;
+   }
+ 
+  .footer{
+    position: fixed;
+   // left: 0;
+    bottom: 0;
+    width: 100%;
+  }

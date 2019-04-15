@@ -1,0 +1,202 @@
+.login_body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+    font-size: 1rem !important;
+  }
+  
+  .header-area{
+    width: 100%;
+    background:black;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.17);
+    height: 70px;
+    padding: 20px 0px 0px 0px;
+  }
+  
+  
+  .form-group{
+    margin-left:0px;
+  }
+  .form_container{
+    width: 90%;
+    padding: 20px;
+    margin: 20px auto;
+  }
+  .form_container .form_title{
+    margin: 15px 0px;
+    color: #656565;
+    font-size: 20px;
+  }
+  h1.register{ font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    border-bottom: 1px solid #f4f5f6;
+    padding-bottom: 10px;
+  }
+  input[type="email"], input[type="email"]:focus{
+    background: #FFFFFF !important;
+    border: 1px solid #E1E1E1 !important;
+  }
+  input[type="text"], input[type="text"]:focus {
+    border: 0px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    outline: 0px solid #ced4da;
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+    height: 40px;
+  }
+  input[type="email"], input[type="email"]:focus {
+    border: 0px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    outline: 0px solid #ced4da;
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+    height: 40px;
+  }
+  input[type="password"], input[type="password"]:focus {
+    border: 0px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    outline: 0px solid #ced4da;
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+    height: 40px;
+  }
+  .asterisk{
+    color: #f00;
+    font-size: 12px;
+  }
+  button.register{
+    padding: 5px 15px;
+  
+    font-weight: 400;
+  
+    color: #fff;
+  
+    border-radius: 4px;
+    cursor: pointer;
+    background: #EE7202;
+  
+  font-size: 15px;
+  color: #FFFFFF;
+  text-align: left;
+  }
+  button.cancel {
+    font-size: 16px;
+    font-weight: 400;
+  
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    background: #333333;
+    font-family: Helvetica;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 5px 15px;
+    border-radius: 4px;
+  }
+  .text-error{color: #f00; text-align: right;}
+  
+  
+  
+  /* == Login == */
+  
+  .login_container{
+    width: 460px;
+    margin: 90px auto 0px;
+  }
+  .login_area{
+    background: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.18);
+  padding: 35px 80px;
+  }
+  
+  input[type="text"], input[type="text"]:focus, input[type="password"], input[type="password"]:focus  {
+    background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+  }
+  
+  button.login{
+    background: green;
+  
+  font-size: 15px;
+  color: #FFFFFF;
+  text-align: left;
+  border-radius: 8px;
+  padding: 10px 40px;
+  border: 0px black;
+  }
+  /* == Custom Checkbox  == */
+  
+  .customcbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 14px;
+    color: #354052;
+    line-height: 21px;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .customcbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 20px;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .customcbox:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #EE7202;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .customcbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .customcbox .checkmark:after {
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  

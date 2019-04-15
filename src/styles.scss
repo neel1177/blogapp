@@ -1,0 +1,192 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+//@import 'node_modules/angular5-toaster/dist/toaster';
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #f4f5f6;
+    font-size: 14px;
+}
+
+.mat-raised-button,
+.mat-button {
+    box-shadow: none !important;
+    border-radius: 4px !important;
+}
+
+.mat-dialog-container {
+    position: relative !important;
+}
+
+body .mat-pseudo-checkbox {
+    width: 16px;
+    height: 16px;
+    border: 1px solid;
+}
+
+body .mat-pseudo-checkbox-checked::after {
+    top: 4px;
+    left: 3px;
+    width: 9px;
+    height: 3px;
+}
+
+body .mat-pseudo-checkbox {
+    width: 16px;
+    height: 16px;
+    border: 1px solid;
+}
+
+body .mat-checkbox {
+    .mat-checkbox-inner-container {
+        width: 16px;
+        height: 16px;
+        .mat-checkbox-frame {
+            border-width: 1px;
+        }
+    }
+}
+
+.heading .mat-card-header-text {
+    margin: 0px;
+}
+
+.answer-text.mat-form-field-appearance-legacy.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label,
+.answer-text.mat-form-field-appearance-legacy.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label{
+  display: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.mat-card-title {
+    font-size: 21px !important;
+    font-weight: 400;
+    color: #333;
+}
+
+.primary-table {
+    th {
+        background: #f1f1f1 !important;
+        font-size: 14px;
+         color: #333;
+        &.widthAddedBy {
+            width: 12%;
+        }
+        &.widthHeader {
+            width: 8%;
+        }
+    }
+    td {
+        color: #666;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .actionbtn>button .mat-icon {
+        font-size: 20px;
+    }
+    width:100%;
+}
+
+.left-bar {
+    i {
+        font-size: 20px;
+        color:white;
+    }
+    span.menu {
+        font-size: 14px !important;
+        color: #333 ;
+    }
+}
+
+.general-form {
+    .mat-form-field-wrapper {
+        margin-bottom: 20px;
+    }
+}
+
+.general-btn {
+    background-color: #eb7203 !important;
+    color: #fff !important;
+}
+
+.userData {
+    color:white;
+}
+
+.title {
+    color: #333 !important;
+}
+
+ 
+ .mat-card-header {
+  .title{
+    margin-bottom: 5px;
+  }  
+  
+}
+ .mat-button-wrapper {
+   font-weight: normal !important;
+ }
+
+.mat-horizontal-stepper-header-container {
+  margin-top: 20px;
+}
+ 
+.mat-stepper-horizontal-line {
+    margin: 0px !important;
+}
+
+.mat-step-header:hover {
+    border-radius: 4px;
+ }
+ 
+.mat-step-icon {
+    color: #fff;
+}
+
+.success {
+    color: #1b5e20;
+}
+
+.warning {
+    color: #dd2c00
+}
+.pending {
+  color: #eb7203 !important;
+}
+.material-icons{ color:#555}
+
+.mat-step-icon > mat-icon.mat-icon.material-icons.ng-star-inserted{ color:#fff !important} 
+.sectionButton{ margin-bottom: 0px !important;}
+.marginBtn {  margin-left: 1% !important;  }
+.cancelIcon, .cursor{ cursor: pointer;}
+
+.reset{
+    background-color: #fcdfc4 !important;
+}
+
+.searchFilter.mat-form-field{
+    width:14% !important;
+  }
+
+.snack-bar-color {
+    background-color: white !important;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, .5);
+    color: black !important;
+  
+    button {
+        background-color: white !important; 
+      color: black;
+    }
+  }
+
+.radio-btn{
+    padding: 10px 10px;
+}
+.margin10px{ margin: 0px 10px}
+.weightage{ margin-right: 17px}

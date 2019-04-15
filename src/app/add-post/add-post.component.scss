@@ -1,0 +1,91 @@
+.form {
+  min-width: 150px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.addButton,
+.editButton,
+.cancel {
+  border-radius: 10px;
+}
+
+.addButton {
+  margin-left: 10px;
+}
+
+.editButton {
+  margin-left: 10px;
+}
+
+.mat-form-field {
+  font-size: 16px;
+  width: 100%;
+}
+
+.answer-text {
+  width: 48% !important;
+  padding-left: 10px;
+}
+
+.question-type,
+.question-category,
+.question-complexity,
+.weightage {
+  width: 48%;
+}
+
+.weightageError{
+  width: 98%;
+  float: right;
+}
+
+.question-category,
+.weightage,
+.buttons {
+  float: right;
+}
+
+.option {
+  font-size: 16px;
+}
+
+.cancelIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.mat-dialog-container {
+  transform: none;
+  opacity: 1;
+  position: relative !important;
+}
+
+.mat-card-header-text {
+  margin: 0px !important;
+}
+
+.border {
+  border-bottom: 1px solid #ddd;
+}
+
+.heading {
+  margin: 0px 0px 0px 0px;
+}
+
+.addOption {
+  border: 1px solid;
+  background-color: #eb7203;
+  padding: 10px 15px 10px 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 36px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+

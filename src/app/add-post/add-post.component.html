@@ -1,0 +1,42 @@
+<div>
+  <button mat-icon-button (click)="closeDialog()" class="cancelIcon">
+    <mat-icon>cancel</mat-icon>
+  </button>
+</div>
+
+<mat-card-header class="heading">
+  <mat-card-title>
+      <h2 mat-dialog-title class="heading">Add Post</h2>
+  </mat-card-title>
+</mat-card-header>
+
+
+<form class="form" [formGroup]="postsData" >
+     <mat-form-field class="full-width">
+        <input matInput formControlName="title" placeholder="Add Title">
+      </mat-form-field>
+      <mat-error>
+        <span *ngIf="postsData.controls['title'].errors?.required &&
+        postsData.controls['title'].touched">Title
+          Required
+        </span>
+      </mat-error>
+      
+      
+      <mat-form-field class="full-width">
+          <textarea matInput formControlName="desc" placeholder="Add Description" rows="5"></textarea>
+        </mat-form-field>
+        <mat-error>
+          <span *ngIf="postsData.controls['desc'].errors?.required &&
+          postsData.controls['desc'].touched">Description
+            Required
+          </span>
+        </mat-error>
+     <div class="button-row buttons">
+      <button mat-button color="primary" class="cancel" (click)="closeDialog()">Cancel</button>
+      <button mat-raised-button color="primary" [disabled]="postsData.invalid" class="addButton" (click)="addPost(postsData.value)"
+        >Save</button>
+    </div>
+
+
+</form>
